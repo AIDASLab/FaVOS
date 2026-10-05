@@ -1,0 +1,9 @@
+/* The film is the only new page component. No layout changes elsewhere. */
+.favos-page .fp-volume-film { margin:28px 0 30px; min-width:0; }
+.favos-page .fp-volume-film h3 { margin:0 0 16px; }
+.favos-page .fp-volume-film-frame { width:100%; max-width:680px; margin-inline:auto; }
+.favos-page .fp-volume-film-frame img,.favos-page .fp-volume-film-frame video { display:block; width:100%; max-width:100%; height:auto; aspect-ratio:1; background:#fff; }
+@media(prefers-reduced-motion:reduce) {
+  .favos-page .fp-volume-film-frame video { display:none!important; }
+  .favos-page .fp-volume-film-frame img { display:block!important; }
+}
